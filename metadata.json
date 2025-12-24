@@ -1,0 +1,7 @@
+{
+  "name": "TrustLoop",
+  "description": "A trust-first digital marketplace with real-time seller trust metrics, AI-assisted review analysis, and intelligent order tracking.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
