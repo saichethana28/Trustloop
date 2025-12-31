@@ -1,0 +1,7 @@
+{
+  "name": "TrustLoop",
+  "description": "A trust-first marketplace for high-risk and high-value purchases, focusing on seller reliability, delivery certainty, and authenticity.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
