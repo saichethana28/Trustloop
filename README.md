@@ -1,20 +1,115 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🟦 TrustLoop – A Trust-First Marketplace
 
-# Run and deploy your AI Studio app
+## 🚀 Overview
 
-This contains everything you need to run your app locally.
+**TrustLoop** is a trust-first online marketplace designed to help users make safer and more informed purchasing decisions.  
+Unlike traditional e-commerce platforms that prioritize pricing and speed, TrustLoop focuses on **credibility, transparency, and reliability**.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1COiP61H9zRpQ8FyFVus8Wu1ViAY5sdyI
+---
 
-## Run Locally
+## 🎯 Problem Statement
 
-**Prerequisites:**  Node.js
+Modern online marketplaces often struggle with:
+- Fake or misleading reviews  
+- Unreliable sellers  
+- Poor transparency in delivery and returns  
+
+Users frequently make purchase decisions without truly knowing whether a seller or product can be trusted.
+
+---
+
+## 💡 Our Solution
+
+**TrustLoop** introduces a **Trust-Driven Marketplace Model** where purchasing decisions are based on:
+- Seller credibility
+- Delivery reliability
+- Review authenticity
+- Product accuracy
+
+Instead of blindly choosing the cheapest option, users are empowered to make confident, informed choices.
+
+---
+
+## 🧩 Key Features
+
+### 🔹 Trust Score System
+Each seller is assigned a dynamic trust score calculated using:
+- Delivery success rate  
+- Review authenticity  
+- Return handling efficiency  
+- Order consistency  
+
+This score helps buyers instantly judge seller reliability.
+
+---
+
+### 🔹 Product Discovery & Comparison
+- Browse products across categories
+- Compare sellers based on trust score, price, and delivery
+- View verified seller information
+
+---
+
+### 🔹 Order & Delivery Tracking
+- Real-time order tracking  
+- Delivery status updates  
+- Clear order history  
+
+---
+
+### 🔹 User Profile
+- View past orders  
+- Track deliveries  
+- Manage personal details  
+- Access saved items  
+
+---
+
+## 🛠️ Technology Stack
+
+### Frontend
+- React + TypeScript  
+- Tailwind CSS  
+- Vite  
+
+### Backend (Conceptual)
+- Node.js  
+- REST APIs  
+
+### Tools & Platforms
+- GitHub (version control)
+- Vercel (deployment)
+
+---
+
+## 📁 Project Structure
+
+trustloop/
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── data/
+│   ├── services/
+│   └── App.tsx
+│
+├── public/
+├── package.json
+├── vite.config.ts
+└── README.md
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+## 🚀 Live Demo
+
+🔗 **Live Application:**  
+https://trustloop-3ox1.vercel.app/
+
+---
+
+## 🧪 How to Run Locally
+
+```bash
+npm install
+npm run dev
